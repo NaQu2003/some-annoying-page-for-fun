@@ -1,0 +1,70 @@
+body{
+    background-color:#333;
+    color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    display:flex;
+    flex-direction: column;
+}
+#input{
+    max-width: 300px;
+    cursor:pointer;
+    transition: margin 0.0.10s;
+}
+.search{
+    margin-left:-25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background:white;
+    cursor:pointer;
+    
+}
+.search:hover{
+    background-color:rgb(240,240,240);
+}
+.controls{
+    display:flex;
+    align-items: flex-end;
+    margin-bottom:16px;
+}
+.control{
+    padding:8px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+}
+.input label{
+    margin-bottom:16px;
+    font-size: 18px;
+}
+.btn{
+    padding:14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border:none;
+    cursor:pointer;
+    background-color:white;
+    margin:4px;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color:rgb(170,170,170)
+}
+nav{
+    display:flex;
+}
+
+h2{
+    font-size:100px;
+    color:black;
+}
+.koala{
+    margin-top:200px;
+    width:400px;
+    border-radius:20%;
+    transition: all 1s;
+    cursor:pointer;
+}
